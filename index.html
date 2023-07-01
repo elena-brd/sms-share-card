@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <title>SMS Share Card</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div id="content">
+            <h2>Send install link to mobile device</h2>
+            <p>Send via SMS or visit the private URL on the mobile device to install this app directly to the device.
+            </p>
+        </div>
+        <form action="#" id="form-input">
+            <input type="tel" name="phone" id="phone" required>
+            <input type="submit" class="btn" value="Send">
+        </form>
+        <div id="share-content">
+            <h3>Share Link</h3>
+            <div class="copy-link">
+                <p class="link-text">https://www.w3schools.com/</p>
+                <button class="btn-copy">Copy</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
